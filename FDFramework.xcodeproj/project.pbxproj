@@ -14,6 +14,9 @@
 		4AF7F9AC1CECA250009E6769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF7F9AA1CECA250009E6769 /* LaunchScreen.storyboard */; };
 		4AF7F9B71CECA250009E6769 /* FDFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7F9B61CECA250009E6769 /* FDFrameworkTests.swift */; };
 		4AF7F9C21CECA250009E6769 /* FDFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7F9C11CECA250009E6769 /* FDFrameworkUITests.swift */; };
+		4AF7F9D61CECA84D009E6769 /* FDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7F9D31CECA84D009E6769 /* FDConstants.swift */; };
+		4AF7F9D71CECA84D009E6769 /* FDHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7F9D41CECA84D009E6769 /* FDHelpers.swift */; };
+		4AF7F9D81CECA84D009E6769 /* FDValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7F9D51CECA84D009E6769 /* FDValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		4AF7F9BD1CECA250009E6769 /* FDFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF7F9C11CECA250009E6769 /* FDFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDFrameworkUITests.swift; sourceTree = "<group>"; };
 		4AF7F9C31CECA250009E6769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF7F9D31CECA84D009E6769 /* FDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FDConstants.swift; path = Classes/FDConstants.swift; sourceTree = SOURCE_ROOT; };
+		4AF7F9D41CECA84D009E6769 /* FDHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FDHelpers.swift; path = Classes/FDHelpers.swift; sourceTree = SOURCE_ROOT; };
+		4AF7F9D51CECA84D009E6769 /* FDValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FDValidator.swift; path = Classes/FDValidator.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		4AF7F9A01CECA250009E6769 /* FDFramework */ = {
 			isa = PBXGroup;
 			children = (
+				4AF7F9D31CECA84D009E6769 /* FDConstants.swift */,
+				4AF7F9D41CECA84D009E6769 /* FDHelpers.swift */,
+				4AF7F9D51CECA84D009E6769 /* FDValidator.swift */,
 				4AF7F9A11CECA250009E6769 /* AppDelegate.swift */,
 				4AF7F9A31CECA250009E6769 /* ViewController.swift */,
 				4AF7F9A51CECA250009E6769 /* Main.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF7F9D61CECA84D009E6769 /* FDConstants.swift in Sources */,
 				4AF7F9A41CECA250009E6769 /* ViewController.swift in Sources */,
 				4AF7F9A21CECA250009E6769 /* AppDelegate.swift in Sources */,
+				4AF7F9D81CECA84D009E6769 /* FDValidator.swift in Sources */,
+				4AF7F9D71CECA84D009E6769 /* FDHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
