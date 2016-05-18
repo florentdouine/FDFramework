@@ -25,6 +25,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/*.swift'
 
-  s.frameworks = ''
   s.module_name = 'FDFramework'
 end
