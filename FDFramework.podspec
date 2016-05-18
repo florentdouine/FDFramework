@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = "FDFramework"
   s.version          = "1.0"
   s.summary          = "Tools and helpers function for FD"
-  s.homepage         = "https://github.com/florentdouine/FDHelpers"
+  s.homepage         = "https://github.com/florentdouine/FDFramework"
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     LICENSE
   }
   s.author           = { "FlorentDouine" => "florent@douine.fr" }
-  s.source           = { :git => "https://github.com/florentdouine/FDHelpers.git", :tag => s.version }
+  s.source           = { :git => "https://github.com/florentdouine/FDFramework.git", :tag => s.version }
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
